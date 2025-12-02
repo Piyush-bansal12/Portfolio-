@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piyush Bansal | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Piyush</div>
+      <div class="menu-toggle" id="mobile-menu">☰</div>
+      <ul class="nav-list">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <button id="theme-toggle">🌙 Dark Mode</button>
+  <button id="scrollTopBtn" title="Go to top">⬆</button>
+
+  <header id="header">
+    <h1>Piyush Bansal</h1>
+    <p>B.Tech | Frontend Developer | Java + DSA Enthusiast</p>
+  </header>
+
+  <section class="summary">
+    <h2>Summary</h2>
+    <p>Highly motivated and enthusiastic individual with a strong passion for technology, seeking to contribute to a company's growth while further developing my skills and knowledge.</p>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skill-bar">
+      <p>HTML</p>
+      <div class="bar"><div class="fill html"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>CSS</p>
+      <div class="bar"><div class="fill css"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>JavaScript</p>
+      <div class="bar"><div class="fill js"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>Java</p>
+      <div class="bar"><div class="fill java"></div></div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>WooCommerce Website</h3>
+      <ul>
+        <li>Developed full eCommerce website using WordPress and WooCommerce</li>
+        <li>Customizable product catalog, secure payments, responsive design</li>
+      </ul>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <ul>
+        <li>Responsive personal portfolio website using HTML and CSS</li>
+        <li>Showcases skills, projects, and contact information</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <h2>Experience</h2>
+    <p><strong>Frontend Developer Intern - Innovzant Technologies</strong> (Jul 2024 - Aug 2024)</p>
+    <ul>
+      <li>Built responsive UI components with HTML5, CSS3, JavaScript</li>
+      <li>Improved accessibility and performance using lightweight techniques</li>
+      <li>Guided by Director & Mentor Mr. Naved Akhtar</li>
+    </ul>
+  </section>
+
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech in ECE</strong> - Bhagwan Parshuram Institute of Technology (2022 - 2026)<br>CGPA: 7.9 / 10</p>
+    <p><strong>12th CBSE</strong> - GBSSS Sec-5, New Delhi (2021)<br>CGPA: 8.3</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/mayklrlo" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email: <a href="mailto:piyushbansal222002@gmail.com">piyushbansal222002@gmail.com</a></p>
+    <p>LeetCode: <a href="https://leetcode.com/u/Piyushbansal_18/" target="_blank">leetcode.com/Piyushbansal_18</a></p>
+    <p>Phone: +91 9354265210</p>
+    <div class="resume-download">
+      <a href="Piyush..Resume.pdf" download>📄 Download Resume</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Piyush Bansal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
